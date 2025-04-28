@@ -17,7 +17,14 @@ export default {
   width: 'Width',
   height: 'Height',
   loadAnimation: 'The animation is loaded!',
+  lottieInfo1: 'The "loop" prop can receive a number or boolean, setting a number defines how many times it will be executed;',
+  lottieInfo2: 'The only mandatory props are "animationData" and "animationLink", and you must use at least one;',
+  lottieInfo3: 'In addition to the methods used, there are others, namely "onEnterFrame" and "onSegmentStart";',
+  lottieInfo4: 'Lottie is NOT capable of customizing colors, specific layers, keyframes, does not support native and "manual" events, complex animations and effects and is not responsive;',
   endedAnimation: 'The animation has ended!',
+  numberOfLoops: 'Number of loops',
   frames: 'Frames',
-  info: 'Animation information',  durationInfo: 'Animation duration time, in frames',
+  animationInfo: 'Animation information',
+  durationInfo: 'Animation duration time, in frames',
+  lottieInfo: 'Lottie information'
 };
